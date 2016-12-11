@@ -1,0 +1,46 @@
+ul {
+	list-style-type: none;
+}
+
+* {
+	text-decoration: none;
+	color: rgb(102, 102, 102);
+}
+
+li {
+	display: inline;
+	font-family: arial, sans-serif;
+	padding-left: 27px;
+}
+
+#header {
+	position: fixed;
+	top: 10px;
+	width: 100%;
+	padding-right: 27px;
+}
+
+#body {
+	position: relative;
+	top: 150px;
+	width: 70%;
+	margin: auto;
+	text-align: center;
+}
+
+#footer {
+	position: fixed;
+	bottom: 10px;
+	width: 100%;
+}
+
+#search {
+	width: 40%;
+}
+
+#button {
+	color: white;
+	font-weight: bold;
+	background-color: rgb(66, 133, 244);
+	border-radius: 5%;
+}
